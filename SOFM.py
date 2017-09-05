@@ -12,7 +12,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License for more details.
  
-SOFM.py Last Motified Time: 2017-09-05 
 """
 
 
@@ -25,7 +24,6 @@ import numpy as np
 
 
 def Kmer2Index(alphabet, kmer):
-
     kmer_tuple = []
     kmer_tuple = list(itertools.product(alphabet, repeat=kmer))
     kmer_string = [''.join(x) for x in kmer_tuple]

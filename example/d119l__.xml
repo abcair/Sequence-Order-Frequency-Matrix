@@ -1,0 +1,2265 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/cjj/Library/BLAST_nrdb90_DB/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>d119l__</BlastOutput_query-def>
+  <BlastOutput_query-len>162</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>d119l__</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:pdb|1JTN|1JTN-A</Hit_id>
+  <Hit_def>lysozyme(lysis protein)Mutant</Hit_def>
+  <Hit_accession>/:pdb|1JTN|1JTN-A</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>5.03019e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_hseq>
+      <Hsp_midline>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL+KSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H7|Q8T1H7</Hit_id>
+  <Hit_def>Hypothetical 19.4 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H7|Q8T1H7</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>6.7862e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNT------NGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>SIKDMLKYDEGEKLEMYKDTEGYYTIGIGHLITRIKERNAAILSLEEKIGHKVKMDSKNEPIITSSKSEALFEKDLSVATKSIESNPTLSTIYKNLDNIRKMAIINMVFQMGVNNVLTFKMSLKLIEEKKWAEAAKEMKNSTWNHQTPNRSNRVISVIETGTLNAYK</Hsp_hseq>
+      <Hsp_midline>+I +ML+ DEG +L++YKDTEGYYTIGIGHL+T+    NAA   L++ IG           +IT  ++E LF +D+  A + I  N  L  +Y +LD +R+ A+INMVFQMG   V  F  SL+++++K+W EAA  +  S W +QTPNR+ RVI+   TGT +AYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H6|Q8T1H6</Hit_id>
+  <Hit_def>Hypothetical 19.2 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H6|Q8T1H6</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>4.88434e-39</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTN------GVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>DMLKYDEGEKLEMYKDTEGNYTIGIGHLITKNKDKNEAIKILEGEIGHTVKLNSKKEPEISSSESESLFEKDKSVAINSIENSSTLSTIYNNLDSNRKMALANMVFQMGASNVSKFKKSLKLIEEKKWAEAAIELKNSTWNTQTPKRSNRVISVFETGTLKEYK</Hsp_hseq>
+      <Hsp_midline>+ML+ DEG +L++YKDTEG YTIGIGHL+TK+   N A   L+  IG            I+  E+E LF +D   A+  I  ++ L  +Y++LD+ R+ AL NMVFQMG + V+ F  SL+++++K+W EAA+ L  S W  QTP R+ RVI+ F TGT   YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q8SDG3|Q8SDG3</Hit_id>
+  <Hit_def>Tail lysozyme.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8SDG3|Q8SDG3</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>3.09044e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLT--KSPSLNAAKSELDKAIGRN-TNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>IEKMLRGDEGYREKWYLDSEGYPTIGIGHLIIYKKTSDLGIINNELSKLVGREVTNGRLTAEEVSKVFADDIEKTRRDMRKHPRIAPVYNKCNASRRMALENMAFQMGVGGLGKFKNSLAAMLAEEWKQAYDGLRQSVWANQTPGRSSRVSKIILTGNLESY</Hsp_hseq>
+      <Hsp_midline>I +MLR DEG R K Y D+EGY TIGIGHL+   K+  L    +EL K +GR  TNG +T +E  K+F  D++   R + ++ ++ PVY+  +A RR AL NM FQMG  G+  F NSL  +  + W +A   L +S W NQTP R+ RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P16009|VG05_BPT4</Hit_id>
+  <Hit_def>Tail-associated lysozyme (EC 3.2.1.17) (Protein GP5).//:swissnew|P16009|VG05_BPT4 Tail-associated lysozyme (EC 3.2.1.17) (Protein Gp5).//:gp|X15728|15227 gp5 protein (AA 1-576) [Enterobacteria phage T4]//:gp|AF158101|5354275 tail lysozyme [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>/:swiss|P16009|VG05_BPT4</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>3.13718e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNTNG---VITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY</Hsp_hseq>
+      <Hsp_midline>M++ EMLR DEGLRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR   G    IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S WY QT  RA RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:swiss|P09963|LYCV_BPP22</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:tremblnew|AAM81442|AAM81442 Gene 19 protein.//:gp|M10997|215264 gene 19 protein [Enterobacteria phage P22]//:gp|AF217253|8439618 lysozyme [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>/:swiss|P09963|LYCV_BPP22</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>8.05749e-06</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQD---VDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAA</Hsp_qseq>
+      <Hsp_hseq>LKREEGERLKAYSDSRGIPTIGVGH--TGKVDGNSVASGM----------TITAEKSSELLKEDLQWVEDAISSLVRVPLNQNQYD--------ALCSLIFNIGKSAFAGST-VLRQLNLKNYQAAA</Hsp_hseq>
+      <Hsp_midline>L+ +EG RLK Y D+ G  TIG+GH  T     N+  S +           IT +++ +L  +D   V+ A+  ++R    +  YD        AL +++F +G++  AG T  LR L  K +  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q933T0|Q933T0</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17).//:gp|AJ417077|16415965 lysozyme [Helicobacter pylori]//:gp|AY054410|15723741 lysozyme [Helicobacter pylori]</Hit_def>
+  <Hit_accession>/:sptrembl|Q933T0|Q933T0</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000238361</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTW</Hsp_qseq>
+      <Hsp_hseq>EGFSPFIYTDKTGHPTIGYGYNLS---VYSYEGKRITKAYGLLTD--ILKENHKALLSYGW----------------YKNLDAMRRMVILDLSYNLGLNGLLKFKQFIKAIEDKNYALAVERLQKSPYFNQVKKE--------RQGIW</Hsp_hseq>
+      <Hsp_midline>EG    IY D  G+ TIG G+ L+     +     + KA G  T+  I K+  + L +                   Y +LDA+RR  ++++ + +G  G+  F   ++ ++ K +  A   L KS ++NQ            R G W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:swiss|Q37896|LYCV_BPB03</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|X99260|1429244 morphogenesis protein [Bacteriophage B103]</Hit_def>
+  <Hit_accession>/:swiss|Q37896|LYCV_BPB03</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00027601</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MNIFE----MLRIDEGLRLKIYK--DTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>MNISQAGINLIKSFEGLRTKAYKAVPTEKYYTIGYGHYGSDVHPCQ----------------VISEEKAEKLLRDDVQEFVDGVDKLLKVDVTQSQFD-----ALVSFAYNVG-LGALKSSTLLQYLNAGNFQKAANEFLKWNKSGGKVYNGLVKRREQERTLFLTG</Hsp_hseq>
+      <Hsp_midline>MNI +    +++  EGLR K YK   TE YYTIG GH  +                      VI++++AEKL   DV   V G+ +  K+       D     AL++  + +G  G    +  L+ L    + +AA      N S  + YN    R ++  T F TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|P11187|LYCV_BPPH2</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|M14782|215333 morphogenesis protein [Bacteriophage phi-29]//:gp|X04962|15679 gene 15 product (AA 1-258); put. lysozyme [Bacteriophage phi-29]</Hit_def>
+  <Hit_accession>/:swiss|P11187|LYCV_BPPH2</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000866696</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FEMLRIDEGLRLKIYK--DTEGYYTIGIGHLLTK-SPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNS--LRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>INLIKSFEGLQLKAYKAVPTEKHYTIGYGHYGSDVSPRQ-----------------VITAKQAEDMLRDDVQAFVDGVNKALKVSVTQNQFD-----ALVSFAYNV---GLGAFRSSSLLEYLNEGRTALAAAEFPKWNKSGGKVYQGLINRRAQEQALFNSGT</Hsp_hseq>
+      <Hsp_midline>  +++  EGL+LK YK   TE +YTIG GH  +  SP                   VIT  +AE +   DV A V G+ +  K+    +  D     AL++  + +   G+  F +S  L  L + R   AA      N S  + Y    NR  +    F +GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>108</Statistics_hsp-len>
+      <Statistics_eff-space>6498792918</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>d119l__</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:pdb|1JTN|1JTN-A</Hit_id>
+  <Hit_def>lysozyme(lysis protein)Mutant</Hit_def>
+  <Hit_accession>/:pdb|1JTN|1JTN-A</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.696</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>3.04833e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_hseq>
+      <Hsp_midline>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL+KSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P16009|VG05_BPT4</Hit_id>
+  <Hit_def>Tail-associated lysozyme (EC 3.2.1.17) (Protein GP5).//:swissnew|P16009|VG05_BPT4 Tail-associated lysozyme (EC 3.2.1.17) (Protein Gp5).//:gp|X15728|15227 gp5 protein (AA 1-576) [Enterobacteria phage T4]//:gp|AF158101|5354275 tail lysozyme [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>/:swiss|P16009|VG05_BPT4</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.044</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>2.70034e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNTNG---VITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY</Hsp_hseq>
+      <Hsp_midline>M++ EMLR DEGLRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR   G    IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S WY QT  RA RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q8SDG3|Q8SDG3</Hit_id>
+  <Hit_def>Tail lysozyme.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8SDG3|Q8SDG3</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.273</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>7.43717e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLT--KSPSLNAAKSELDKAIGRN-TNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>TIEKMLRGDEGYREKWYLDSEGYPTIGIGHLIIYKKTSDLGIINNELSKLVGREVTNGRLTAEEVSKVFADDIEKTRRDMRKHPRIAPVYNKCNASRRMALENMAFQMGVGGLGKFKNSLAAMLAEEWKQAYDGLRQSVWANQTPGRSSRVSKIILTGNLESY</Hsp_hseq>
+      <Hsp_midline> I +MLR DEG R K Y D+EGY TIGIGHL+   K+  L    +EL K +GR  TNG +T +E  K+F  D++   R + ++ ++ PVY+  +A RR AL NM FQMG  G+  F NSL  +  + W +A   L +S W NQTP R+ RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H7|Q8T1H7</Hit_id>
+  <Hit_def>Hypothetical 19.4 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H7|Q8T1H7</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.176</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.06864e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNT------NGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>SIKDMLKYDEGEKLEMYKDTEGYYTIGIGHLITRIKERNAAILSLEEKIGHKVKMDSKNEPIITSSKSEALFEKDLSVATKSIESNPTLSTIYKNLDNIRKMAIINMVFQMGVNNVLTFKMSLKLIEEKKWAEAAKEMKNSTWNHQTPNRSNRVISVIETGTLNAYK</Hsp_hseq>
+      <Hsp_midline>+I +ML+ DEG +L++YKDTEGYYTIGIGHL+T+    NAA   L++ IG           +IT  ++E LF +D+  A + I  N  L  +Y +LD +R+ A+INMVFQMG   V  F  SL+++++K+W EAA  +  S W +QTPNR+ RVI+   TGT +AYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H6|Q8T1H6</Hit_id>
+  <Hit_def>Hypothetical 19.2 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H6|Q8T1H6</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.672</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>4.14447e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTN------GVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>SLKDMLKYDEGEKLEMYKDTEGNYTIGIGHLITKNKDKNEAIKILEGEIGHTVKLNSKKEPEISSSESESLFEKDKSVAINSIENSSTLSTIYNNLDSNRKMALANMVFQMGASNVSKFKKSLKLIEEKKWAEAAIELKNSTWNTQTPKRSNRVISVFETGTLKEYK</Hsp_hseq>
+      <Hsp_midline>++ +ML+ DEG +L++YKDTEG YTIGIGHL+TK+   N A   L+  IG            I+  E+E LF +D   A+  I  ++ L  +Y++LD+ R+ AL NMVFQMG + V+ F  SL+++++K+W EAA+ L  S W  QTP R+ RVI+ F TGT   YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q933T0|Q933T0</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17).//:gp|AJ417077|16415965 lysozyme [Helicobacter pylori]//:gp|AY054410|15723741 lysozyme [Helicobacter pylori]</Hit_def>
+  <Hit_accession>/:sptrembl|Q933T0|Q933T0</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.455</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.00774e-32</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>EGFSPFIYTDKTGHPTIGYGYNLS---VYSYEGKRITKAYGLLTD--ILKENHKALLSYGW----------------YKNLDAMRRMVILDLSYNLGLNGLLKFKQFIKAIEDKNYALAVERLQKSPYFNQVKKE--------RQGIWK</Hsp_hseq>
+      <Hsp_midline>EG    IY D  G+ TIG G+ L+     +     + KA G  T+  I K+  + L +                   Y +LDA+RR  ++++ + +G  G+  F   ++ ++ K +  A   L KS ++NQ            R G W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:swiss|Q37896|LYCV_BPB03</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|X99260|1429244 morphogenesis protein [Bacteriophage B103]</Hit_def>
+  <Hit_accession>/:swiss|Q37896|LYCV_BPB03</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.685</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>5.11204e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MNIFE----MLRIDEGLRLKIYK--DTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>MNISQAGINLIKSFEGLRTKAYKAVPTEKYYTIGYGHYGSDVHPCQ----------------VISEEKAEKLLRDDVQEFVDGVDKLLKVDVTQSQFD-----ALVSFAYNVGL-GALKSSTLLQYLNAGNFQKAANEFLKWNKSGGKVYNGLVKRREQERTLFLTG</Hsp_hseq>
+      <Hsp_midline>MNI +    +++  EGLR K YK   TE YYTIG GH  +                      VI++++AEKL   DV   V G+ +  K+       D     AL++  + +G  G    +  L+ L    + +AA      N S  + YN    R ++  T F TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:swiss|P11187|LYCV_BPPH2</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|M14782|215333 morphogenesis protein [Bacteriophage phi-29]//:gp|X04962|15679 gene 15 product (AA 1-258); put. lysozyme [Bacteriophage phi-29]</Hit_def>
+  <Hit_accession>/:swiss|P11187|LYCV_BPPH2</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.685</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>6.10425e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>FEMLRIDEGLRLKIYK--DTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>INLIKSFEGLQLKAYKAVPTEKHYTIGYGHYGSDVSPRQ----------------VITAKQAEDMLRDDVQAFVDGVNKALKVSVTQNQFD-----ALVSFAYNVGLGAF-RSSSLLEYLNEGRTALAAAEFPKWNKSGGKVYQGLINRRAQEQALFNSGT</Hsp_hseq>
+      <Hsp_midline>  +++  EGL+LK YK   TE +YTIG GH  +                      VIT  +AE +   DV A V G+ +  K+    +  D     AL++  + +G       ++ L  L + R   AA      N S  + Y    NR  +    F +GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|P09963|LYCV_BPP22</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:tremblnew|AAM81442|AAM81442 Gene 19 protein.//:gp|M10997|215264 gene 19 protein [Enterobacteria phage P22]//:gp|AF217253|8439618 lysozyme [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>/:swiss|P09963|LYCV_BPP22</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.1137</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>6.30369e-24</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>LRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQD---VDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVN----LSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>LKREEGERLKAYSDSRGIPTIGVGH--TGKVDGNSVASGMT----------ITAEKSSELLKEDLQWVEDAISSLVRVPLNQNQYD--------ALCSLIFNIGKSAFAGST-VLRQLNLKNYQAAADAFLLWKKAGKDPDILLPRRRRERALFLS</Hsp_hseq>
+      <Hsp_midline>L+ +EG RLK Y D+ G  TIG+GH  T     N+  S +           IT +++ +L  +D   V+ A+  ++R    +  YD        AL +++F +G++  AG T  LR L  K +  AA          +  +    R +R    F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:swiss|Q9T1T5|LYCV_BPAPS</Hit_id>
+  <Hit_def>Probable lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (P13).//:gp|AF157835|6118008 P13 [Acyrthosiphon pisum bacteriophage APSE-1]</Hit_def>
+  <Hit_accession>/:swiss|Q9T1T5|LYCV_BPAPS</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.9202</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.40483e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQK----------RWDEAAVNLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>LIKRYEGLRLKAYQCRAGRWTLGYGH-----------------THNLNIGDVITQEQAEAFLREDIAQVTALLNTQIKVPLTQNQYD-----AICSLVFNIGMTAFTTST-LLKKLNVGDYSGASAEFMKWSKAKVNGKRTPL-PGLIKRRQAEKALFES</Hsp_hseq>
+      <Hsp_midline>+++  EGLRLK Y+   G +T+G GH                     N   VIT+++AE    +D+      +    K+    +  D     A+ ++VF +G T     T  L+ L             +W +A VN  ++        R +     F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZQ99|Q8ZQ99</Hit_id>
+  <Hit_def>Gifsy-2 prophage, lysozyme.//:gp|AE008744|16419542 Gifsy-2 prophage; lysozyme [Salmonella typhimurium LT2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZQ99|Q8ZQ99</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.683</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.23526e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKD--TEGYY-TIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>LIKEFEGCSLTAYPDPGTGGDPWTIGYGW--THSVDGKPVKPGM----------MIDEATAERLLNTGLVGYENDVSRLVKVKLTQGQFD-----ALVSFAYNLGARTLS-SSTLLRKLNAGDYAGAADEFLRWNKAGGKVLNGLTRRREAERALFLS</Hsp_hseq>
+      <Hsp_midline>+++  EG  L  Y D  T G   TIG G   T S      K  +          +I +  AE+L N  +      + R  K+K      D     AL++  + +G   ++  +  LR L    +  AA      N +  +  N    R +     F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|Q9F9Z4|Q9F9Z4</Hit_id>
+  <Hit_def>Hypothetical 16.0 kDa protein.//:gp|AF135182|9963683 unknown [Serratia entomophila]//:gp|AX092884|13444940 ORF1 [Serratia entomophila]//:remtrembl|CAC34922|CAC34922 Sequence 1 from Patent WO0116305.</Hit_def>
+  <Hit_accession>/:sptrembl|Q9F9Z4|Q9F9Z4</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.2978</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.30518e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVN-----LSKSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>LIKEFEGLRLHAYRCAADVWTVGYGH-----------------TAGVTKGDIITVDEAQTMLTNDITVFERAVSQAVAVPLNQSQYD-----ALVSLVFNIGQGNF-KRSTLLKKLNKQDYVGAGNEFLRWTRANGKVLPGLIRRREAERVLFE</Hsp_hseq>
+      <Hsp_midline>+++  EGLRL  Y+     +T+G GH                   G     +IT DEA+ +   D+    R + +   +       D     AL+++VF +G+      +  L+ L ++ +  A         +  +       R +     F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|Q9A6C1|Q9A6C1</Hit_id>
+  <Hit_def>Lysozyme family protein.//:gp|AE005889|13423670 lysozyme family protein [Caulobacter crescentus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9A6C1|Q9A6C1</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.3718</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>5.74936e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS---------KSRWYNQTPNRAKRVITTFRT---GTW</Hsp_qseq>
+      <Hsp_hseq>DLIKRFEGYRQKAAQLPDGRWTVGYGHTLTARE-----------------GASVSEKDAEALLLYDLISVAHSVNEHTYTPLNQNQFD-----ALVCFAFNIGLDNFLRS-GVLRRINEGSLLQAACAMEMWRKADFEGERIVIDALVRRRSAEKTLFLTPANGEW</Hsp_hseq>
+      <Hsp_midline>++++  EG R K  +  +G +T+G GH LT                       +++ +AE L   D+ +    +  +       +  D     AL+   F +G          LR + +    +AA  +          +    +    R     T F T   G W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|Q9PB31|Q9PB31</Hit_id>
+  <Hit_def>Phage-related lysozyme.//:gp|AE004042|9107481 phage-related lysozyme [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PB31|Q9PB31</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3642</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>5.60499e-10</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPN-----RAKRVITTFRTGTWDA</Hsp_qseq>
+      <Hsp_hseq>LIKFFEGCKLNPYTCPGGVLTIGYGE--TGKHVRPDMRLANEQEADARLRARLAKE------------FEPAVRRYVRVPLKQQQFD-----ALVSLSFNIGTGAFHRST-LLRKLNAGDVAGAAEQFHVWKWAGGSIQSGLIIRRAAERALFEGGDWRA</Hsp_hseq>
+      <Hsp_midline>+++  EG +L  Y    G  TIG G   T        +   ++         + K+                + R  ++       D     AL+++ F +G       T  LR L       AA      +W   +       R       F  G W A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q8Z351|Q8Z351</Hit_id>
+  <Hit_def>Putative lysozyme.//:gp|AL627279|16504560 putative lysozyme [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Z351|Q8Z351</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.979</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>6.04984e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>KLIADYEGCRLQPYQCSAGVWTDGIGN-----------------TSGVIPGKTITERQAAEGLISNVLRVERALERCVKQQPPQKVYD-----AAVSFAFNVGTGN-ACSSTLVKLLNQRRWADACRQLPRWVYVKGVFNQGLDNRRAREMAWCLQG</Hsp_hseq>
+      <Hsp_midline>+++   EG RL+ Y+ + G +T GIG+                   G      IT+ +A +    +V    R + R  K +P     D     A ++  F +G    A  +  +++L Q+RW +A   L      K  +     NR  R +     G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|Q9B033|Q9B033</Hit_id>
+  <Hit_def>Probable lysozyme.//:gp|AF311646|12276081 probable lysozyme [Bacteriophage GMSE-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9B033|Q9B033</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.2086</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>8.94136e-10</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWD------------EAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDA</Hsp_qseq>
+      <Hsp_hseq>LIMRLEGGRLRAYQCRAGIWTIGYGH-----------------TEGVKPGDKISLDQALELFNHDVQWVGGRVNALVKVPLSQGQFE-----ALCSFVFNVGRGAFAQSR-LLKKLNAGDVAGVLADGLCFLCVRANHWQQRAVSFEQQAGEAQRERISARAGGFAA</Hsp_hseq>
+      <Hsp_midline>++   EG RL+ Y+   G +TIG GH                   G      I+ D+A +LFN DV      +    K+       +     AL + VF +G    A     L+ L                   A     ++  + Q    A+R   + R G + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:swiss|O80292|LYCV_BPPS1</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Protein gp19).//:gp|AJ011581|3676086 gp19 [bacteriophage PS119]</Hit_def>
+  <Hit_accession>/:swiss|O80292|LYCV_BPPS1</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.5122</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>9.56315e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>EGVRYKPYKDVVGVLTVCYGHTGKDIMPGK----------------TYTEAECKALLNKDLITVARQINPYIKVD-----IPETTRGALYSFVYNVGAGNF-RTSTLLRKINQGDIKGACDQLRRWTYAGGKQWKGLMTRREVERDVCLWG</Hsp_hseq>
+      <Hsp_midline>EG+R K YKD  G  T+  GH                           T+ E + L N+D+    R I    K+      +    R AL + V+ +G       +  LR + Q     A   L        + +     R +        G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q8Y110|Q8Y110</Hit_id>
+  <Hit_def>Putative lysozyme (Endolysin) protein (EC 3.2.1.17).//:gp|AL646061|17427895 PUTATIVE LYSOZYME (ENDOLYSIN) PROTEIN [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Y110|Q8Y110</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.127</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.34873e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGL---------RLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>LAKRFEGFHRVARVDPTRAQPYVCPAGFWTVGYGHLCDPTH------------------PPITQAQAEVYLAADL---VTALNATLRYCPVLAAEPQGRLAAIVDFTFNLGA-GRLQTSTLRRRVNQRDWSAAASELRRWVYGGGKVLPGLAARREAEVALLR</Hsp_hseq>
+      <Hsp_midline>+ +  EG          R + Y    G++T+G GHL   +                     IT+ +AE     D+   V  +    +  PV  +    R AA+++  F +G  G    +   R + Q+ W  AA  L        +       R +  +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:sptrembl|Q9P9P8|Q9P9P8</Hit_id>
+  <Hit_def>Phage-related lysozyme.//:gp|AE003986|9106609 phage-related lysozyme [Xylella fastidiosa 9a5c]//:gp|AE003992|9106729 phage-related lysozyme [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9P9P8|Q9P9P8</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.127</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.26112e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVD-AAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVN-----LSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>LIKFFEGCKLNPYTCPGGVLTIGYGETGKHVVPDMCLANE---------------QEADAMLRARLAKEFEPAVRRYVRVPLKQQQFD-----ALVSLSFNIGTGAFHRST-LLKRLNAGDVAGAAEQFGAWKFSSGRVLPGLVRRRKAERWLFEGQDWQ</Hsp_hseq>
+      <Hsp_midline>+++  EG +L  Y    G  TIG G             +E                EA+ +    +       + R  ++       D     AL+++ F +G       T  L+ L       AA        S  R       R K     F    W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZMT7|Q8ZMT7</Hit_id>
+  <Hit_def>Fels-2 prophage: probable prophage lysozyme.//:gp|AE008823|16421261 Fels-2 prophage: probable prophage lysozyme [Salmonella typhimurium LT2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZMT7|Q8ZMT7</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.201</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>6.91622e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>KLIADYEGCRLQPYQCSAGVWTDGIGN--TSGVVPGKTITERQAAQGLITN----------VLR--VERALDKCVVQPMPQKVYD--------AVVSFAFNVGTGN-ACSSTLVKLLNQRRWADACHQLPRWVYVKGVFNQGLDNRRAREMTWCLKGV</Hsp_hseq>
+      <Hsp_midline>+++   EG RL+ Y+ + G +T GIG+  T         +E   A G  TN          +    V+ A+   +     + VYD        A+++  F +G    A  +  +++L Q+RW +A   L      K  +     NR  R +T    G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q8YXP5|Q8YXP5</Hit_id>
+  <Hit_def>Lysin.//:gp|AP003584|17130513 lysin [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8YXP5|Q8YXP5</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.275</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>8.37527e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKD---TEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGET--GVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>NLIKEFEGCKLIAYPDPLSKGKPYTIGWGSTVKKDGSEWSLGEKM------------TQVEADELL---ILQLERKYLPSLEKIPGWENLNPYQQGALLSFAYNLGANFYGSKGFETITRVLNNQEWDKIEPTLTMYRNPGSSVEAGLRRRRVAEAKLFLQ</Hsp_hseq>
+      <Hsp_midline> +++  EG +L  Y D       YTIG G  + K  S  +   ++            T+ EA++L    +    R  L + +  P +++L+  ++ AL++  + +G    G  GF    R+L  + WD+    L+      S        R       F  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:swiss|P27359|LYCV_BPP21</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:gp|M65239|215468 R [Bacteriophage 21]</Hit_def>
+  <Hit_accession>/:swiss|P27359|LYCV_BPP21</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.9638</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.16384e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>EGVSYIPYKDIVGVWTVCHGHTGKDI----------------MLGKTYTKAECKALLNKDLATVARQINPYIKVD-----IPETMRGALYSLLYNVGAGNF-RTSTLLRKINQGDIKGACDQLRRWTYAGGKQWKGLMTRREIEREICLWG</Hsp_hseq>
+      <Hsp_midline>EG+    YKD  G +T+  GH                           TK E + L N+D+    R I    K+      +    R AL ++++ +G       +  LR + Q     A   L        + +     R +        G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q9FZS7|Q9FZS7</Hit_id>
+  <Hit_def>Lysozyme.//:gp|AJ278614|11342495 lysozyme [Bacteriophage phi-Ea1h]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9FZS7|Q9FZS7</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.423</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>9.96737e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTN--SLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>EGCKRQAYKDGAGVPTAGVG-----------------STIGIVMGRLYTDGEVAKMLAKDVMIAEQCLNRNVKVDLNQGEWD-----AYVSFVFNVGCSAFVSSTTYRILNGVKPGTRIQACEAM--GMWNKITVN----GVKVFSQGVYN</Hsp_hseq>
+      <Hsp_midline>EG + + YKD  G  T G+G                   IG     + T  E  K+  +DV  A + + RN K+       D     A ++ VF +G +     T    L  ++     +A   +    W   T N     +  F  G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|Q8SBN9|Q8SBN9</Hit_id>
+  <Hit_def>Gp15 protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8SBN9|Q8SBN9</Hit_accession>
+  <Hit_len>983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.1934</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.69135e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>813</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL---------SKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>NGFRFMKGYEGLGRYLYYDSGGIATIGYGVTMSEPTVFNKLKAN------QPVPEEMAAKESYNLKIRDYGKPIIQRCKELGI-TRQQQFD-----ALCDLAFNAGTGRILANNSLTNAIMRNPNDEAYIRPIWEKFIIKDAAGNILNGLKARRKAECDIYFSGIYE</Hsp_hseq>
+      <Hsp_midline>N F  ++  EGL   +Y D+ G  TIG G  +++    N  K+       +     +   E+  L  +D    +    +   +       D     AL ++ F  G   +    +    + +   DEA +           +     N    R K     + +G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:pironly|S49014|S49014</Hit_id>
+  <Hit_def>lysin - Lactococcus phage c2//:gp|Z34528|506456 lysin [Lactococcus phage c2]</Hit_def>
+  <Hit_accession>/:pironly|S49014|S49014</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.7266</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000151299</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDT--EGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDV-DAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMG----ETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>NGLNLIKEFEGCRLTAYKPVPWEQMYTIGWGHY------------------GVTAGTTWTQAQADSQLEIDINNKYAPMVDAYVKGKANQNEFD-----ALVSLAYNCGNVFVADGWAPFSHAYCASMIPKYRNA-----GGQVLQGLVRRRQAELNLFN</Hsp_hseq>
+      <Hsp_midline>N   +++  EG RL  YK    E  YTIG GH                   G       T+ +A+     D+ +     +    K K   +  D     AL+++ +  G      G A F+++       ++  A       +       R +  +  F </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>108</Statistics_hsp-len>
+      <Statistics_eff-space>6498792918</Statistics_eff-space>
+      <Statistics_kappa>0.0358564586513956</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 d119l__:  lcl|Query_1 d119l__: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>d119l__</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:pdb|1JTN|1JTN-A</Hit_id>
+  <Hit_def>lysozyme(lysis protein)Mutant</Hit_def>
+  <Hit_accession>/:pdb|1JTN|1JTN-A</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.297</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.91025e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_hseq>
+      <Hsp_midline>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL+KSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H7|Q8T1H7</Hit_id>
+  <Hit_def>Hypothetical 19.4 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H7|Q8T1H7</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.341</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>6.34018e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTN------GVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>SIKDMLKYDEGEKLEMYKDTEGYYTIGIGHLITRIKERNAAILSLEEKIGHKVKMDSKNEPIITSSKSEALFEKDLSVATKSIESNPTLSTIYKNLDNIRKMAIINMVFQMGVNNVLTFKMSLKLIEEKKWAEAAKEMKNSTWNHQTPNRSNRVISVIETGTLNAYK</Hsp_hseq>
+      <Hsp_midline>+I +ML+ DEG +L++YKDTEGYYTIGIGHL+T+    NAA   L++ IG           +IT  ++E LF +D+  A + I  N  L  +Y +LD +R+ A+INMVFQMG   V  F  SL+++++K+W EAA  +  S W +QTPNR+ RVI+   TGT +AYK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P16009|VG05_BPT4</Hit_id>
+  <Hit_def>Tail-associated lysozyme (EC 3.2.1.17) (Protein GP5).//:swissnew|P16009|VG05_BPT4 Tail-associated lysozyme (EC 3.2.1.17) (Protein Gp5).//:gp|X15728|15227 gp5 protein (AA 1-576) [Enterobacteria phage T4]//:gp|AF158101|5354275 tail lysozyme [Enterobacteria phage T4]</Hit_def>
+  <Hit_accession>/:swiss|P16009|VG05_BPT4</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.57</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>5.65914e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNT---NGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY</Hsp_hseq>
+      <Hsp_midline>M++ EMLR DEGLRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR      G IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S WY QT  RA RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q8SDG3|Q8SDG3</Hit_id>
+  <Hit_def>Tail lysozyme.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8SDG3|Q8SDG3</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.096</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>8.35589e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLL--TKSPSLNAAKSELDKAIGRN-TNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAY</Hsp_qseq>
+      <Hsp_hseq>TIEKMLRGDEGYREKWYLDSEGYPTIGIGHLIIYKKTSDLGIINNELSKLVGREVTNGRLTAEEVSKVFADDIEKTRRDMRKHPRIAPVYNKCNASRRMALENMAFQMGVGGLGKFKNSLAAMLAEEWKQAYDGLRQSVWANQTPGRSSRVSKIILTGNLESY</Hsp_hseq>
+      <Hsp_midline> I +MLR DEG R K Y D+EGY TIGIGHL+   K+  L    +EL K +GR  TNG +T +E  K+F  D++   R + ++ ++ PVY+  +A RR AL NM FQMG  G+  F NSL  +  + W +A   L +S W NQTP R+ RV     TG  ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|Q8T1H6|Q8T1H6</Hit_id>
+  <Hit_def>Hypothetical 19.2 kDa protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8T1H6|Q8T1H6</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.688</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>2.51461e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTN------GVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWDAYK</Hsp_qseq>
+      <Hsp_hseq>SLKDMLKYDEGEKLEMYKDTEGNYTIGIGHLITKNKDKNEAIKILEGEIGHTVKLNSKKEPEISSSESESLFEKDKSVAINSIENSSTLSTIYNNLDSNRKMALANMVFQMGASNVSKFKKSLKLIEEKKWAEAAIELKNSTWNTQTPKRSNRVISVFETGTLKEYK</Hsp_hseq>
+      <Hsp_midline>++ +ML+ DEG +L++YKDTEG YTIGIGHL+TK+   N A   L+  IG            I+  E+E LF +D   A+  I  ++ L  +Y++LD+ R+ AL NMVFQMG + V+ F  SL+++++K+W EAA+ L  S W  QTP R+ RVI+ F TGT   YK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q9P9P8|Q9P9P8</Hit_id>
+  <Hit_def>Phage-related lysozyme.//:gp|AE003986|9106609 phage-related lysozyme [Xylella fastidiosa 9a5c]//:gp|AE003992|9106729 phage-related lysozyme [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9P9P8|Q9P9P8</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.754</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.50334e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDA-AVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVN-----LSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>GIALIKFFEGCKLNPYTCPGGVLTIGYGETGKHVVPDMCLAN---------------EQEADAMLRARLAKEFEPAVRRYVRVPLKQQQFD-----ALVSLSFNIGTGAFHRS-TLLKRLNAGDVAGAAEQFGAWKFSSGRVLPGLVRRRKAERWLFEGQDWQ</Hsp_hseq>
+      <Hsp_midline>   +++  EG +L  Y    G  TIG G             +               + EA+ +    +       + R  ++       D     AL+++ F +G          L+ L       AA        S  R       R K     F    W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q8Z351|Q8Z351</Hit_id>
+  <Hit_def>Putative lysozyme.//:gp|AL627279|16504560 putative lysozyme [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Z351|Q8Z351</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.747</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>7.643e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>GLKLIADYEGCRLQPYQCSAGVWTDGIGNT-----------------SGVIPGKTITERQAAEGLISNVLRVERALERCVKQQPPQKVYD-----AAVSFAFNVGTGN-ACSSTLVKLLNQRRWADACRQLPRWVYVKGVFNQGLDNRRAREMAWCLQG</Hsp_hseq>
+      <Hsp_midline>  +++   EG RL+ Y+ + G +T GIG+                   G      IT+ +A +    +V    R + R  K +P     D     A ++  F +G    A  +  +++L Q+RW +A   L      K  +     NR  R +     G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZMT7|Q8ZMT7</Hit_id>
+  <Hit_def>Fels-2 prophage: probable prophage lysozyme.//:gp|AE008823|16421261 Fels-2 prophage: probable prophage lysozyme [Salmonella typhimurium LT2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZMT7|Q8ZMT7</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.976</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>2.14672e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>GLKLIADYEGCRLQPYQCSAGVWTDGIGNT-----------------SGVVPGKTITERQAAQGLITNVLRVERALDKCVVQPMPQKVYD-----AVVSFAFNVGTGN-ACSSTLVKLLNQRRWADACHQLPRWVYVKGVFNQGLDNRRAREMTWCLKGV</Hsp_hseq>
+      <Hsp_midline>  +++   EG RL+ Y+ + G +T GIG+                   G      IT+ +A +    +V    R + +           D     A+++  F +G    A  +  +++L Q+RW +A   L      K  +     NR  R +T    G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|Q9PB31|Q9PB31</Hit_id>
+  <Hit_def>Phage-related lysozyme.//:gp|AE004042|9107481 phage-related lysozyme [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PB31|Q9PB31</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.28</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>2.8799e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDA-AVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYN-----QTPNRAKRVITTFRTGTWDA</Hsp_qseq>
+      <Hsp_hseq>GIALIKFFEGCKLNPYTCPGGVLTIGYGETGKHVRPDMRLAN---------------EQEADARLRARLAKEFEPAVRRYVRVPLKQQQFD-----ALVSLSFNIGTGAFHRS-TLLRKLNAGDVAGAAEQFHVWKWAGGSIQSGLIIRRAAERALFEGGDWRA</Hsp_hseq>
+      <Hsp_midline>   +++  EG +L  Y    G  TIG G             +               + EA+      +       + R  ++       D     AL+++ F +G          LR L       AA      +W           R       F  G W A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q9F9Z4|Q9F9Z4</Hit_id>
+  <Hit_def>Hypothetical 16.0 kDa protein.//:gp|AF135182|9963683 unknown [Serratia entomophila]//:gp|AX092884|13444940 ORF1 [Serratia entomophila]//:remtrembl|CAC34922|CAC34922 Sequence 1 from Patent WO0116305.</Hit_def>
+  <Hit_accession>/:sptrembl|Q9F9Z4|Q9F9Z4</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.739</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>4.13311e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL-----SKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>GIALIKEFEGLRLHAYRCAADVWTVGYGHT-----------------AGVTKGDIITVDEAQTMLTNDITVFERAVSQAVAVPLNQSQYD-----ALVSLVFNIGQGNFKRS-TLLKKLNKQDYVGAGNEFLRWTRANGKVLPGLIRRREAERVLFEK</Hsp_hseq>
+      <Hsp_midline>   +++  EGLRL  Y+     +T+G GH                   G     +IT DEA+ +   D+    R + +   +       D     AL+++VF +G+         L+ L ++ +  A         +  +       R +     F  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:swiss|P11187|LYCV_BPPH2</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|M14782|215333 morphogenesis protein [Bacteriophage phi-29]//:gp|X04962|15679 gene 15 product (AA 1-258); put. lysozyme [Bacteriophage phi-29]</Hit_def>
+  <Hit_accession>/:swiss|P11187|LYCV_BPPH2</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.821</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>5.31511e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYK--DTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>GINLIKSFEGLQLKAYKAVPTEKHYTIGYGHYGSDVSPRQ----------------VITAKQAEDMLRDDVQAFVDGVNKALKVSVTQNQFD-----ALVSFAYNVGLGAF-RSSSLLEYLNEGRTALAAAEFPKWNKSGGKVYQGLINRRAQEQALFNSGT</Hsp_hseq>
+      <Hsp_midline>   +++  EGL+LK YK   TE +YTIG GH  +                      VIT  +AE +   DV A V G+ +  K+    +  D     AL++  + +G       ++ L  L + R   AA           + Y    NR  +    F +GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:swiss|Q37896|LYCV_BPB03</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Morphogenesis protein 2).//:gp|X99260|1429244 morphogenesis protein [Bacteriophage B103]</Hit_def>
+  <Hit_accession>/:swiss|Q37896|LYCV_BPB03</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.665</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.53066e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYK--DTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>GINLIKSFEGLRTKAYKAVPTEKYYTIGYGHYGSDVHPCQ----------------VISEEKAEKLLRDDVQEFVDGVDKLLKVDVTQSQFD-----ALVSFAYNVGLGA-LKSSTLLQYLNAGNFQKAANEFLKWNKSGGKVYNGLVKRREQERTLFLTGE</Hsp_hseq>
+      <Hsp_midline>   +++  EGLR K YK   TE YYTIG GH  +                      VI++++AEKL   DV   V G+ +  K+       D     AL++  + +G       +  L+ L    + +AA      N S  + YN    R ++  T F TG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:swiss|Q9T1T5|LYCV_BPAPS</Hit_id>
+  <Hit_def>Probable lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (P13).//:gp|AF157835|6118008 P13 [Acyrthosiphon pisum bacteriophage APSE-1]</Hit_def>
+  <Hit_accession>/:swiss|Q9T1T5|LYCV_BPAPS</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.273</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.07444e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRW---------YNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>GLVLIKRYEGLRLKAYQCRAGRWTLGYGHT-----------------HNLNIGDVITQEQAEAFLREDIAQVTALLNTQIKVPLTQNQYD-----AICSLVFNIGMTAF-TTSTLLKKLNVGDYSGASAEFMKWSKAKVNGKRTPLPGLIKRRQAEKALFES</Hsp_hseq>
+      <Hsp_midline>   +++  EGLRLK Y+   G +T+G GH                     N   VIT+++AE    +D+      +    K+    +  D     A+ ++VF +G T     +  L+ L    +  A+    K                  R +     F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:swiss|O80292|LYCV_BPPS1</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Protein gp19).//:gp|AJ011581|3676086 gp19 [bacteriophage PS119]</Hit_def>
+  <Hit_accession>/:swiss|O80292|LYCV_BPPS1</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.887</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.07905e-37</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>GLEGVRYKPYKDVVGVLTVCYGHTGKDIMP----------------GKTYTEAECKALLNKDLITVARQINPYIKVD-----IPETTRGALYSFVYNVGAGNF-RTSTLLRKINQGDIKGACDQLRRWTYAGGKQWKGLMTRREVERDVCLWG</Hsp_hseq>
+      <Hsp_midline>  EG+R K YKD  G  T+  GH                           T+ E + L N+D+    R I    K+      +    R AL + V+ +G       +  LR + Q     A   L        + +     R +        G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZQ99|Q8ZQ99</Hit_id>
+  <Hit_def>Gifsy-2 prophage, lysozyme.//:gp|AE008744|16419542 Gifsy-2 prophage; lysozyme [Salmonella typhimurium LT2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZQ99|Q8ZQ99</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.421</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.63674e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTE---GYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>GITLIKEFEGCSLTAYPDPGTGGDPWTIGYGWTHSVDGKP------------VKPGMMIDEATAERLLNTGLVGYENDVSRLVKVKLTQGQFD-----ALVSFAYNLGART-LSSSTLLRKLNAGDYAGAADEFLRWNKAGGKVLNGLTRRREAERALFLS</Hsp_hseq>
+      <Hsp_midline>   +++  EG  L  Y D       +TIG G   +                      +I +  AE+L N  +      + R  K+K      D     AL++  + +G       +  LR L    +  AA      N +  +  N    R +     F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:swiss|P09963|LYCV_BPP22</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:tremblnew|AAM81442|AAM81442 Gene 19 protein.//:gp|M10997|215264 gene 19 protein [Enterobacteria phage P22]//:gp|AF217253|8439618 lysozyme [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>/:swiss|P09963|LYCV_BPP22</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.65</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>5.94405e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAV----NLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>NGITRLKREEGERLKAYSDSRGIPTIGVGHTGK--VDGNSVASGM----------TITAEKSSELLKEDLQWVEDAISSLVRVPLNQNQYD-----ALCSLIFNIGKSAFAGS-TVLRQLNLKNYQAAADAFLLWKKAGKDPDILLPRRRRERALFLS</Hsp_hseq>
+      <Hsp_midline>N    L+ +EG RLK Y D+ G  TIG+GH        N+  S +           IT +++ +L  +D+      I    ++    +  D     AL +++F +G++  AG    LR L  K +  AA          +  +    R +R    F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:swiss|P27359|LYCV_BPP21</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:gp|M65239|215468 R [Bacteriophage 21]</Hit_def>
+  <Hit_accession>/:swiss|P27359|LYCV_BPP21</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.035</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>6.46633e-36</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>GLEGVSYIPYKDIVGVWTVCHGHTGKD----------------IMLGKTYTKAECKALLNKDLATVARQINPYIKVD-----IPETMRGALYSLLYNVGAGNF-RTSTLLRKINQGDIKGACDQLRRWTYAGGKQWKGLMTRREIEREICLWG</Hsp_hseq>
+      <Hsp_midline>  EG+    YKD  G +T+  GH                           TK E + L N+D+    R I    K+      +    R AL ++++ +G       +  LR + Q     A   L        + +     R +        G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q9B033|Q9B033</Hit_id>
+  <Hit_def>Probable lysozyme.//:gp|AF311646|12276081 probable lysozyme [Bacteriophage GMSE-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9B033|Q9B033</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.643</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>6.1971e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDE------------AAVNLSKSRWYNQTPNRAKRVITTFRTGTWDA</Hsp_qseq>
+      <Hsp_hseq>NGRLLIMRLEGGRLRAYQCRAGIWTIGYGHT-----------------EGVKPGDKISLDQALELFNHDVQWVGGRVNALVKVPLSQGQFE-----ALCSFVFNVGRGAFAQSR-LLKKLNAGDVAGVLADGLCFLCVRANHWQQRAVSFEQQAGEAQRERISARAGGFAA</Hsp_hseq>
+      <Hsp_midline>N   ++   EG RL+ Y+   G +TIG GH                   G      I+ D+A +LFN DV      +    K+       +     AL + VF +G    A     L+ L                   A     ++  + Q    A+R   + R G + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:sptrembl|Q9A6C1|Q9A6C1</Hit_id>
+  <Hit_def>Lysozyme family protein.//:gp|AE005889|13423670 lysozyme family protein [Caulobacter crescentus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9A6C1|Q9A6C1</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.65</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>9.67766e-34</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSR---------WYNQTPNRAKRVITTFRT---GTW</Hsp_qseq>
+      <Hsp_hseq>DLIKRFEGYRQKAAQLPDGRWTVGYGHTLTARE-----------------GASVSEKDAEALLLYDLISVAHSVNEHTYTPLNQNQFD-----ALVCFAFNIGLDNFLRS-GVLRRINEGSLLQAACAMEMWRKADFEGERIVIDALVRRRSAEKTLFLTPANGEW</Hsp_hseq>
+      <Hsp_midline>++++  EG R K  +  +G +T+G GH LT                       +++ +AE L   D+ +    +  +       +  D     AL+   F +G          LR + +    +AA  +   R           +    R     T F T   G W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q8Y110|Q8Y110</Hit_id>
+  <Hit_def>Putative lysozyme (Endolysin) protein (EC 3.2.1.17).//:gp|AL646061|17427895 PUTATIVE LYSOZYME (ENDOLYSIN) PROTEIN [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Y110|Q8Y110</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.635</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>4.97491e-32</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGL---------RLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>LAKRFEGFHRVARVDPTRAQPYVCPAGFWTVGYGHLCDPTH------------------PPITQAQAEVYLAADL---VTALNATLRYCPVLAAEPQGRLAAIVDFTFNLGAGR-LQTSTLRRRVNQRDWSAAASELRRWVYGGGKVLPGLAARREAEVALLR</Hsp_hseq>
+      <Hsp_midline>+ +  EG          R + Y    G++T+G GHL   +                     IT+ +AE     D+   V  +    +  PV  +    R AA+++  F +G       +   R + Q+ W  AA  L        +       R +  +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q8YXP5|Q8YXP5</Hit_id>
+  <Hit_def>Lysin.//:gp|AP003584|17130513 lysin [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8YXP5|Q8YXP5</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.479</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.27608e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDT---EGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGET--GVAGFTNSLRMLQQKRWDEAAVNL-----SKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>LPGVNLIKEFEGCKLIAYPDPLSKGKPYTIGWGSTVKKDGSEWSL------------GEKMTQVEADELL---ILQLERKYLPSLEKIPGWENLNPYQQGALLSFAYNLGANFYGSKGFETITRVLNNQEWDKIEPTLTMYRNPGSSVEAGLRRRRVAEAKLFLQ</Hsp_hseq>
+      <Hsp_midline>+    +++  EG +L  Y D       YTIG G  + K  S  +                +T+ EA++L    +    R  L + +  P +++L+  ++ AL++  + +G    G  GF    R+L  + WD+    L       S        R       F  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:sptrembl|Q54419|Q54419</Hit_id>
+  <Hit_def>NucD protein.//:pironly|S63610|S63610 probable prophage lysozyme nucD - Serratia marcescens//:gp|U11698|509552 putative phage lysozyme [Serratia marcescens]</Hit_def>
+  <Hit_accession>/:sptrembl|Q54419|Q54419</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.242</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>9.80828e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRW-----YNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>GLRLIADLEGCRLSPYQCSAGVWTQGIGHT-----------------AGVIPGKAIDEHKAAMDLVDDVRRTERGMAACLPDTLSQQTYD-----AAIAFAFNVGVSA-ACHSTLVALLQQRQWRQACDQLPRWVYVNGKKNKGLEQRRAMERALCLQGI</Hsp_hseq>
+      <Hsp_midline>   ++   EG RL  Y+ + G +T GIGH                   G      I + +A      DV    RG+           + D     A I   F +G +  A  +  + +LQQ++W +A   L +  +           R          G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q8SBN9|Q8SBN9</Hit_id>
+  <Hit_def>Gp15 protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8SBN9|Q8SBN9</Hit_accession>
+  <Hit_len>983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.176</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.33344e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>659</Hsp_hit-from>
+      <Hsp_hit-to>813</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL---------SKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>NGFRFMKGYEGLGRYLYYDSGGIATIGYGVTMSEPTVFNKLKAN------QPVPEEMAAKESYNLKIRDYGKPIIQRCKELGI-TRQQQFD-----ALCDLAFNAGTGRILANNSLTNAIMRNPNDEAYIRPIWEKFIIKDAAGNILNGLKARRKAECDIYFSGIYE</Hsp_hseq>
+      <Hsp_midline>N F  ++  EGL   +Y D+ G  TIG G  +++    N  K+       +     +   E+  L  +D    +    +   +       D     AL ++ F  G   +    +    + +   DEA +           +     N    R K     + +G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:pironly|S49014|S49014</Hit_id>
+  <Hit_def>lysin - Lactococcus phage c2//:gp|Z34528|506456 lysin [Lactococcus phage c2]</Hit_def>
+  <Hit_accession>/:pironly|S49014|S49014</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.242</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.70404e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDT--EGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDV-DAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMG----ETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>NGLNLIKEFEGCRLTAYKPVPWEQMYTIGWGHY------------------GVTAGTTWTQAQADSQLEIDINNKYAPMVDAYVKGKANQNEFD-----ALVSLAYNCGNVFVADGWAPFSHAYCASMIPKYRNA-----GGQVLQGLVRRRQAELNLFNK</Hsp_hseq>
+      <Hsp_midline>N   +++  EG RL  YK    E  YTIG GH                   G       T+ +A+     D+ +     +    K K   +  D     AL+++ +  G      G A F+++       ++  A       +       R +  +  F  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|Q9FZS7|Q9FZS7</Hit_id>
+  <Hit_def>Lysozyme.//:gp|AJ278614|11342495 lysozyme [Bacteriophage phi-Ea1h]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9FZS7|Q9FZS7</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.62</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>6.36762e-28</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTN--SLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>EGCKRQAYKDGAGVPTAGVG-----------------STIGIVMGRLYTDGEVAKMLAKDVMIAEQCLNRNVKVDLNQGEWD-----AYVSFVFNVGCSAFVSSTTYRILNGVKPGTRIQACEAM--GMWNKITVN----GVKVFSQGVYN</Hsp_hseq>
+      <Hsp_midline>EG + + YKD  G  T G+G                   IG     + T  E  K+  +DV  A + + RN K+       D     A ++ VF +G +     T    L  ++     +A   +    W   T N     +  F  G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|Q933T0|Q933T0</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17).//:gp|AJ417077|16415965 lysozyme [Helicobacter pylori]//:gp|AY054410|15723741 lysozyme [Helicobacter pylori]</Hit_def>
+  <Hit_accession>/:sptrembl|Q933T0|Q933T0</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.686</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>9.05482e-26</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>EGFSPFIYTDKTGHPTIGYGYNLS---VYSYEGKRITKAYGLLTD--ILKENHKALLSYGW----------------YKNLDAMRRMVILDLSYNLGLNGLLKFKQFIKAIEDKNYALAVERLQKSPYFNQVKKER--------QGIWK</Hsp_hseq>
+      <Hsp_midline>EG    IY D  G+ TIG G+ L+     +     + KA G  T+  I K+  + L +                   Y +LDA+RR  ++++ + +G  G+  F   ++ ++ K +  A   L KS ++NQ              G W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q9PFZ3|Q9PFZ3</Hit_id>
+  <Hit_def>Phage-related endolysin.//:gp|AE003900|9105368 phage-related endolysin [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PFZ3|Q9PFZ3</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.2858</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.22976e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL-----SKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>FVAYWEGLKHRPYKDIVGVWTVCYGHTG----------------ANVVIGKTYTEAECDALLQADLREANGYVRRCISVPML-----PHIEASLVSATFNLGPK-VVCGSTLQRKALANDWPGACAELDRWKHAGGREVRGLVLRRADERALCEG</Hsp_hseq>
+      <Hsp_midline> +   EGL+ + YKD  G +T+  GH                           T+ E + L   D+  A   + R   +  +         A+L++  F +G   V   +   R      W  A   L     +  R       R          </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:swiss|Q9T1X2|LYCV_BPMU</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:gp|AF083977|6010396 Lys [Enterobacteria phage Mu]</Hit_def>
+  <Hit_accession>/:swiss|Q9T1X2|LYCV_BPMU</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.9006</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.3934e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRW-----YNQTPNRAKRVITT</Hsp_qseq>
+      <Hsp_hseq>MTRQSLI-HLENIAYMPYRDIAGVLTVCVGHTGPDIEMR-----------------RYSHAECMALLDSDLKPVYAAIDRLVRVPLT-----PYQKTALATFIFNTGVTAFSKS-TLLKKLNAGDYAGARDQMARWVFAAGHKWKGLMNRREVEMAI</Hsp_hseq>
+      <Hsp_midline>M    ++   E +    Y+D  G  T+ +GH                           +  E   L + D+      I R  ++          ++ AL   +F  G T  +     L+ L    +  A   +++  +     +    NR +  +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:swiss|P51728|LYCV_BPHP1</Hit_id>
+  <Hit_def>Lysozyme precursor (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:pironly|S69532|S69532 lysozyme (EC 3.2.1.17) - phage HP1//:gp|U24159|1046253 lysozyme [Haemophilus phage HP1]</Hit_def>
+  <Hit_accession>/:swiss|P51728|LYCV_BPHP1</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.7374</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>5.8091e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKL-KPVYDSLDAVRRAALINMVFQMGETGVAGF----------TNSLRMLQQKRWDEAAV-----NLSKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>MIVNLEGCVRNPYKCPADVWTNGVGNT-----------------HNVDKTKILTIDEVATDLRRNIKEAENCINTYFNGEKMNQGQYD-----AMVSLAFNVGCGNIKTYYSKTQGKRVATTIYRAAQAENWILMCNRIEDFNKSGGRVLKGLQNRRAKEKALCLG</Hsp_hseq>
+      <Hsp_midline>M+   EG     YK     +T G+G+                     +   ++T DE      +++  A   I       K      D     A++++ F +G   +  +          T   R  Q + W          N S  R      NR  +       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|Q48283|Q48283</Hit_id>
+  <Hit_def>Lysozyme.//:gp|U28154|915372 lysozyme [Haemophilus somnus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q48283|Q48283</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.5818</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.4412e-18</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL-----SKSRWYNQTPNRAKRVITTFRT</Hsp_qseq>
+      <Hsp_hseq>GLDLIGNVEGCRRDPYHCPADVLTVGIGSTEANGK-------------NIDPKKRYSDKEIAQRWAYDLRLAEQCVNRY----GNGKNLPQGAFDAFVSITFNVGCGKMQKS-TLFKQANQGFTPQLCHQFERWIYAGGKKLNGLVARRAKEKALCLG</Hsp_hseq>
+      <Hsp_midline>  +++   EG R   Y       T+GIG                      +     +  E  + +  D+  A + + R         +L      A +++ F +G   +       +   Q    +          +  +  N    R  +       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>/:sptrembl|Q8X323|Q8X323</Hit_id>
+  <Hit_def>Putative endolysin.//:gp|AP002567|13364438 putative endolysin [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8X323|Q8X323</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.8114</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>2.83461e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVN-----LSKSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>YWEGKENSTYIDPTGTPTICYGHTGPD----------------VKPGMTLTDEECLELLEKDMKWAFAAIDRRVQVPLTRGQ-----TVALASWIFWAGETNF-RNSTLLRLINAGQMPASCKQYIRWIYSKGVKLPGLEARRSADEWLCR</Hsp_hseq>
+      <Hsp_midline>  EG     Y D  G  TI  GH                          +T +E  +L  +D+  A   I R  ++             AL + +F  GET     +  LR++   +   +         SK         R        R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>/:swiss|Q37875|LYCV_BPP1</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Protein gp17).//:gp|X87673|974762 gp17 lysozyme [enterobacteria phage P1]//:gp|AF125376|4426958 lysozyme lysA [enterobacteria phage P1]</Hit_def>
+  <Hit_accession>/:swiss|Q37875|LYCV_BPP1</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.2706</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.27208e-17</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGF----------TNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFRTGTWDA</Hsp_qseq>
+      <Hsp_hseq>GLELIGNAEGCRRDPYMCPAGVWTDGIGNT-----------------HGVTPGVRKTDQQIAADWEKNILIAERCINQHFRG----KDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE</Hsp_hseq>
+      <Hsp_midline>  E++   EG R   Y    G +T GIG+                   G       T  +    + +++  A R I ++ +       +     +A+ +  F MG   +  +          T+  +  Q+  W     +L                R ++      TG  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZEQ7|Q8ZEQ7</Hit_id>
+  <Hit_def>Putative phage lysozyme (EC 3.2.1.17).//:gp|AJ414151|15980109 putative phage lysozyme [Yersinia pestis]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZEQ7|Q8ZEQ7</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.115</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.40345e-17</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS-----KSRWYNQTPNRAKRVITTFR</Hsp_qseq>
+      <Hsp_hseq>GLELIGNAESCRRDPYACPAGVLTDGIGNT-----------------HGVKAGVIKTDTQIAEDWEKNILDAERCVIRYA----NGNKLPPSAFDAATSISFNAGCS-LMQKSTMFKYFRAGNVTAACEQFPRWIYGGGKKLPGLVTRREKEKALCL</Hsp_hseq>
+      <Hsp_midline>  E++   E  R   Y    G  T GIG+                   G     + T  +  + + +++  A R ++R A      + L      A  ++ F  G + +   +   +  +      A            +       R ++      </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>/:sptrembl|Q8W740|Q8W740</Hit_id>
+  <Hit_def>Orf28.//:gp|AF125163|17865420 orf28 [Bacteriophage K139]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8W740|Q8W740</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.485</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>9.04356e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRG---ILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTN-----SLRMLQQKRWDEAAVNLSKSRW-----YNQTPNRAKRV</Hsp_qseq>
+      <Hsp_hseq>GLEMTGNAEGCRLDPYTCPSGLVTNGVGNT-----------------HGVPDNP-VSLEQVAKDWVRNLQEAERCVESVERASGKPMTQGQFD-----AFTSFAFNTGCQRYKRNSNRTATQIYRLSLEGNYPQACAELKRWVYGGGVKQPGLIIRRNVE</Hsp_hseq>
+      <Hsp_midline>  EM    EG RL  Y    G  T G+G+                   G   N  ++ ++  K + +++  A R    + R +         D     A  +  F  G       +N       R+  +  + +A   L +  +           R    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>/:sptrembl|Q98MT9|Q98MT9</Hit_id>
+  <Hit_def>Hypothetical protein mll0441.//:gp|AP002994|14021411 unknown protein [Mesorhizobium loti]</Hit_def>
+  <Hit_accession>/:sptrembl|Q98MT9|Q98MT9</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.559</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.21843e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>IFEMLRIDEGLRLKIYKDTEGYYTIGIGHL-LTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVD-AAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS------KSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>GAAFVRVEEGVELKFYLDSVGVGTIGIGFTWGSAAFRQWWADNKPGMTFG--IGATMTRNEAEKALIYCFANEYGKAVNAFLGHEVPQNVFDGM-----ASPVYNLGTGSLGWKWAAFAK--RGDYSACAAVLRSTGTTAKGKTLAGLVRRRREEAALIESGIYA</Hsp_hseq>
+      <Hsp_midline>    +R++EG+ LK Y D+ G  TIGIG    + +     A ++     G      +T++EAEK           + +      +   +  D +      + V+ +G   +     +     +  +   A  L       K +       R +       +G + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>/:sptrembl|Q8W6S6|Q8W6S6</Hit_id>
+  <Hit_def>Gp25.//:gp|AF447491|17484047 gp25 [Bacteriophage phiE125]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8W6S6|Q8W6S6</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.3958</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.92857e-11</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>LLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL------------SKSRWYNQTPNRAKRVITTFRTG</Hsp_qseq>
+      <Hsp_hseq>LVARPDPIGIVTACNGDTKDVYAGQRFTRDECRARLEQRLIEHAEPVLTCTPGLRGR----TYQLAAAVSFAYNIGPRAYCGSTTA-RRFNAGDWRGACRAINESDNGRPQWVTAGGRVLPGLVKRRATERAICERG</Hsp_hseq>
+      <Hsp_midline>L+ +   +    +              T+DE      Q +      +L               + AA ++  + +G     G T + R      W  A   +            +  R       R          G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>/:swiss|Q9T0Q1|LYCV_BP933</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:sptrembl|Q8X526|Q8X526 Putative lysozyme protein R of bacteriophage BP-933W (Putative endolysin R of prophage CP-933V).//:gp|AP000422|7649872 endolysin [Escherichia coli O157:H7]//:gp|AP000400|11875105 endolysin [Escherichia coli O157:H7]//:gp|AP002554|13360673 putative endolysin [Escherichia coli O157:H7]//:gp|AP002560|13362437 putative endolysin [Escherichia coli O157:H7]//:gp|AE005297|12514324 putative lysozyme protein R of bacteriophage BP-933W [Escherichia coli O157:H7 EDL933]//:gp|AE005442|12516390 putative endolysin R of prophage CP-933V [Escherichia coli O157:H7 EDL933]//:gp|AP000363|5881637 R [Bacteriophage VT2-Sa]//:gp|AF125520|4585422 endolysin [Bacteriophage 933W]</Hit_def>
+  <Hit_accession>/:swiss|Q9T0Q1|LYCV_BP933</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.781</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.99105e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMV-FQMGETGVAGFTNSLRMLQQKRWDEAAVNLS------------KSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>QFLDEKEGNHTTAYRDGAGIWTICRGATRVDGKP-------------VIPGMKLSKEKCDRVNAIERDKALAWVEKNIKVPLTEPQ-----KAGIASFCPYNIGPGKCFPS-TFYRRINAGDRKGACEAIRWWIKDGGRDCRIRSNNCYGQVSRRDQESALACWGI</Hsp_hseq>
+      <Hsp_midline>+ L   EG     Y+D  G +TI  G                           ++K++ +++   + D A+  + +N K+           +A + +   + +G           R +       A   +             +S       +R  +       G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>/:sptrembl|Q97TF3|Q97TF3</Hit_id>
+  <Hit_def>Integrin-like repeats domain fused to lysozyme, LYCV glycosyl hydrolase.//:gp|AE001438|14994466 Integrin-like repeats domain fused to lysozyme, LYCV glycosyl hydrolase [Clostridium acetobutylicum]</Hit_def>
+  <Hit_accession>/:sptrembl|Q97TF3|Q97TF3</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4774</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>4.45989e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>602</Hsp_hit-from>
+      <Hsp_hit-to>746</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTE-GYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILR-NAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLS---------KSRWYNQTPNRAKRVITTFRTGTWD</Hsp_qseq>
+      <Hsp_hseq>NLITFIGQYESFSPVPYRGADYQNRTIGYGHVIQPGENLSY----------------LTDEQARDLLQRDIQNTTNAVSSITSGLKLTQNQFDS-----LVDFAYNCGISA-LESSILLKNIKAGNTS--ADTLKTNFISWSYCNGEELLGLWRRRMDEWQMYEYSDYN</Hsp_hseq>
+      <Hsp_midline>N+   +   E      Y+  +    TIG GH++    +L+                 +T ++A  L  +D+      +    + LK   +  D+     L++  +  G +     +  L+ ++       A  L                    R       +    ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>/:swiss|O64362|LYCV_BPN15</Hit_id>
+  <Hit_def>Lysozyme (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin) (Protein gp54).//:pironly|T13141|T13141 lysozyme homolog - phage N15//:gp|AF064539|3192716 gp54 [Bacteriophage N15]</Hit_def>
+  <Hit_accession>/:swiss|O64362|LYCV_BPN15</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.4698</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.92607e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMV-FQMGETGVAGFTNSLRMLQQKRWDEAAVNLSKSRWYNQTPNR</Hsp_qseq>
+      <Hsp_hseq>QFLDEKEGNSLTAYKDGSGIWTICRGATMVDGKP-------------VMQGMKLTQAKCNQVNAIERNKALAWVDRNIKVPLTEPQ-----KAGIASFCPYNIGPGKCFPS-TFYKRLNAGDRHGACEAIRWWIKDGGRDCR</Hsp_hseq>
+      <Hsp_midline>+ L   EG  L  YKD  G +TI  G  +                        +T+ +  ++   + + A+  + RN K+           +A + +   + +G           + L       A   +           R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>/:sptrembl|Q8XLB0|Q8XLB0</Hit_id>
+  <Hit_def>Hypothetical protein CPE1132.//:gpnew|AP003189|18144793 hypothetical protein [Clostridium perfringens]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8XLB0|Q8XLB0</Hit_accession>
+  <Hit_len>983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.5514</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.11066e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>799</Hsp_hit-from>
+      <Hsp_hit-to>942</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>NIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGET-GVAGFTNSLRMLQQKRWDEAAVNL------SKSRWYNQTPNRAKRVITTF</Hsp_qseq>
+      <Hsp_hseq>NIIYYVKGIEGYAPYHYYDSVGVKTLGYGMTGSELSGVSVPLSETSATHYL----------VDNFNRLYYTPVLNMLKARGATNMLQREVD-----ALASFAYNCGLDSNGLGGSQLLKKYVAGERGESIHNEFKKWVHGGGQVLPGLVRRREEEWKIF</Hsp_hseq>
+      <Hsp_midline>NI   ++  EG     Y D+ G  T+G G   ++   ++   SE                  +          +  +        +   +D     AL +  +  G      G +  L+        E+  N          +       R +     F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>/:swiss|P76159|LYCW_ECOLI</Hit_id>
+  <Hit_def>Probable lysozyme from lambdoid prophage Qin (EC 3.2.1.17) (Lysis protein) (Muramidase) (Endolysin).//:pironly|E64910|E64910 hypothetical protein b1554, phage protein-related - Escherichia coli//:gp|AE000252|1787836 putative lysozyme [Escherichia coli K12]</Hit_def>
+  <Hit_accession>/:swiss|P76159|LYCW_ECOLI</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.5438</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>8.73144e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>EMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMV-FQMGETGVAGFTNSLRMLQQKRWDEAAVNLS------------KSRWYNQTPNRAKRVITTFRTGT</Hsp_qseq>
+      <Hsp_hseq>QFLDEKEGNHTMAYRDGSGIWTICRGATVVDGKT-------------VFPNMKLSKEKCDQVNAIERDKALAWVERNIKVPLTEPQ-----KAGIASFCPYNIGPGKCFPS-TFYKRLNAGDRKGACEAIRWWIKDGGRDCRIRSNNCYGQVIRRDQESALTCWGI</Hsp_hseq>
+      <Hsp_midline>+ L   EG     Y+D  G +TI  G  +    +                N  ++K++ +++   + D A+  + RN K+           +A + +   + +G           + L       A   +             +S        R  +       G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>/:sptrembl|Q8ZLC6|Q8ZLC6</Hit_id>
+  <Hit_def>Putative phage endolysin.//:gp|AE008866|16422167 putative phage endolysin [Salmonella typhimurium LT2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8ZLC6|Q8ZLC6</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.8474</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>4.878e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDE</Hsp_qseq>
+      <Hsp_hseq>FIKQWQGLSLEKYRDRQGNWVIGYGHMLTPD----------------ETLTFITPDQAEAFLLDDL----NSCDILLQNCLPELN-DRFQRETLIALMFSIGHQRF------LSLINTGDISQ</Hsp_hseq>
+      <Hsp_midline> ++  +GL L+ Y+D +G + IG GH+LT                   T   IT D+AE     D+           +      + D  +R  LI ++F +G          L ++      +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>/:sptrembl|Q9PFW7|Q9PFW7</Hit_id>
+  <Hit_def>Hypothetical protein Xf0540.//:gp|AE003901|9105397 hypothetical protein [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PFW7|Q9PFW7</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.9214</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.10146e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>FEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNTNGVITKD</Hsp_qseq>
+      <Hsp_hseq>IKLIKFLEGLRLQAYLCEAGVLTIGYGETAPHVGPLNSRKGGSVAIKTLETIPVLVAA</Hsp_hseq>
+      <Hsp_midline> ++++  EGLRL+ Y    G  TIG G        LN+ K          T  V+   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>/:sptrembl|Q92G27|Q92G27</Hit_id>
+  <Hit_def>Similarity to lysozyme.//:gp|AE008676|15620437 similarity to lysozyme [Rickettsia conorii]</Hit_def>
+  <Hit_accession>/:sptrembl|Q92G27|Q92G27</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.1434</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.03693e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LDAVRRAALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNL------SKSRWYNQTPNR</Hsp_qseq>
+      <Hsp_hseq>LTENQQAALISFIFNCGAGAF-QASTLQQKLNRGEYANAANELLRWMCAKGGLKLQGLVKR</Hsp_hseq>
+      <Hsp_midline>L   ++AALI+ +F  G       +   + L +  +  AA  L                 R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>108</Statistics_hsp-len>
+      <Statistics_eff-space>6498792918</Statistics_eff-space>
+      <Statistics_kappa>0.0367449289246587</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

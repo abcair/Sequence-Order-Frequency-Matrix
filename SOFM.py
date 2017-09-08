@@ -36,8 +36,10 @@ import numpy as np
 import xml.etree.ElementTree as ET
 from Bio import SeqIO
 
+# 20 standard amino acids
+alphabet = 'ACDEFGHIKLMNPQRSTVWY'
 
-def Kmer2Index(alphabet, kmer):
+def Kmer2Index(kmer):
     kmer_tuple = []
     kmer_tuple = list(itertools.product(alphabet, repeat=kmer))
     kmer_string = [''.join(x) for x in kmer_tuple]
@@ -50,10 +52,11 @@ def run_search(FASTAfile):
     xml_file = os.path.join(filepath, shortname + '.xml')
 
     # run psi-blast command
+    print "Running PSIBLAST search..."
     outfmt_type = 5
     num_iter = 3
     evalue_threshold = 0.001
-    threads = 5
+    threads = 5    
     cmd = ' '.join([PSIBLAST,
                     '-query ' + FASTAfile,
                     '-db ' + BLAST_DB,
@@ -62,10 +65,10 @@ def run_search(FASTAfile):
                     '-num_iterations ' + str(num_iter),
                     '-outfmt ' + str(outfmt_type),
                     '-num_threads ' + str(threads)]
-                   )
-    print cmd
+                   )    
     return_code = subprocess.call(cmd, shell=True)
-
+    
+    print 'Parsing xml file...'
     # parser the xml file output by PSIBLAST
     tree = ET.ElementTree(file=xml_file)
     query_def = tree.find('BlastOutput_query-def').text
@@ -193,14 +196,17 @@ def WriteSOFM(FASTAseq, SOFMfile, SOFM, kmer2index):
 
 
 def main(FASTAfile, SOFMfile, kmer):
-    alphabet = 'ACDEFGHIKLMNPQRSTVWY'
     # a dictionary that contains all amino acid substrings with length k
-    kmer2index = Kmer2Index(alphabet, kmer)
+    kmer2index = Kmer2Index(kmer)
 
+    
     MSA = run_search(FASTAfile)
+    
+    print 'Generating SOFM...'
     if MSA != []:
         SOFM = GenerateSOFM(MSA, kmer, kmer2index)
 
+    print 'Writing output file...'
     # extract fasta sequence
     FASTAseq = list(SeqIO.parse(open(FASTAfile), 'fasta'))[0].seq.upper()
     WriteSOFM(FASTAseq, SOFMfile, SOFM, kmer2index)
@@ -216,7 +222,7 @@ if __name__ == '__main__':
                         help='output SOFM file, default filename: {input}.sofm{k}')
     parser.add_argument('-k', '--kmer', type=int, default=3, required=False,
                         help='length of substrings, default value: k=3')
-    #parser.add_argument('-norm', type=bool, default=True, help='normlize the column')
+    parser.add_argument('--version', action='version', version='%(prog)s 1.0')
     args = parser.parse_args()
 
     FASTAfile = args.input
@@ -235,3 +241,4 @@ if __name__ == '__main__':
     BLAST_DB = conf.get('PSIBLAST', 'BLAST_DATABASE')
 
     main(FASTAfile, SOFMfile, kmer)
+    print 'DONE!'

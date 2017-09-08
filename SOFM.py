@@ -12,7 +12,17 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License for more details.
 
-Last Motified Time: 2017-09-08
+If you use this library, please cite the following papaers:
+
+1. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. Protein remote homology detection and
+   fold recognition based on Sequence-Order Frequency Matrix[J]. IEEE/ACM Transactions on
+   Computational Biology and Bioinformatics, 2017.
+2. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. SOFM-Top: Protein Remote Homology
+   Detection and Fold Recognition Based on Sequence-Order Frequency Matrix[C]//International
+   Conference on Intelligent Computing. Springer, Cham, 2017: 469-480.
+
+Last Motified Time: 09/08/2017 
+
 """
 
 import os
@@ -43,13 +53,15 @@ def run_search(FASTAfile):
     outfmt_type = 5
     num_iter = 3
     evalue_threshold = 0.001
+    threads = 5
     cmd = ' '.join([PSIBLAST,
                     '-query ' + FASTAfile,
                     '-db ' + BLAST_DB,
                     '-out ' + xml_file,
                     '-evalue ' + str(evalue_threshold),
                     '-num_iterations ' + str(num_iter),
-                    '-outfmt ' + str(outfmt_type)]
+                    '-outfmt ' + str(outfmt_type),
+                    '-num_threads ' + str(threads)]
                    )
     print cmd
     return_code = subprocess.call(cmd, shell=True)
@@ -174,7 +186,7 @@ def WriteSOFM(FASTAseq, SOFMfile, SOFM, kmer2index):
 
         for i in xrange(0, SOFM.shape[0]):
             # rower number and fasta sequence
-            f.write("{:<4s}".format(str(i + 1))+"{:<5s}".format(FASTAseq[i]))
+            f.write("{:<4s}".format(str(i + 1)) + "{:<5s}".format(FASTAseq[i]))
             for j in xrange(0, SOFM.shape[1]):
                 f.write("{:<8s}".format(str(SOFM[i, j])))
             f.write('\n')
@@ -196,13 +208,14 @@ def main(FASTAfile, SOFMfile, kmer):
 
 if __name__ == '__main__':
     # parameters
-    parser = argparse.ArgumentParser(description="program description")
+    parser = argparse.ArgumentParser(
+        description="Sequence-Order Frequency Matrix (SOFM) is a novel protein profile, which can achieve more information content than traditional profiles.")
     parser.add_argument('-i', '--input', required=True,
                         help='input a single protein sequence in FASTA format')
     parser.add_argument('-o', '--output', default=None, required=False,
-                        help='output SOFM file')
+                        help='output SOFM file, default filename: {input}.sofm{k}')
     parser.add_argument('-k', '--kmer', type=int, default=3, required=False,
-                        help='length of substrings')
+                        help='length of substrings, default value: k=3')
     #parser.add_argument('-norm', type=bool, default=True, help='normlize the column')
     args = parser.parse_args()
 
@@ -210,17 +223,15 @@ if __name__ == '__main__':
     SOFMfile = args.output
     kmer = args.kmer
 
+    (filepath, filename) = os.path.split(FASTAfile)
+    (shortname, extension) = os.path.splitext(filename)
     if not SOFMfile:
-        (filepath, filename) = os.path.split(FASTAfile)
-        (shortname, extension) = os.path.splitext(filename)
         SOFMfile = os.path.join(filepath, shortname + '.sofm' + str(kmer))
-    print FASTAfile, SOFMfile, kmer
 
     conf = ConfigParser.ConfigParser()
     conf.read('PATH.conf')
     PSIBLAST = os.path.join(conf.get('PSIBLAST', 'NCBI_BLAST_BIN'),
                             'psiblast')
     BLAST_DB = conf.get('PSIBLAST', 'BLAST_DATABASE')
-    print PSIBLAST, BLAST_DB
 
     main(FASTAfile, SOFMfile, kmer)

@@ -6,13 +6,14 @@ If you use this library, please cite:
 1. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. Protein remote homology detection and fold recognition based on Sequence-Order Frequency Matrix[J]. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 2017.   
 2. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. SOFM-Top: Protein Remote Homology Detection and Fold Recognition Based on Sequence-Order Frequency Matrix[C]//International Conference on Intelligent Computing. Springer, Cham, 2017: 469-480.
 
-# Main dependence
+## Install
+### 1. Main dependence
 * [ncbi-blast >= 2.2.30+](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 * [Numpy>=1.3.1](http://www.numpy.org/)
 * [BioPython>=1.69](http://biopython.org/)
 
-# Usage
-1. You should have to configure the PATH.conf. In default, the PSIBLAST is performed with 
+### 2. Configure
+You should have to configure the PATH.conf. In default, the PSIBLAST is performed with 
 
 ```Bash
 # ncbi blast verison ncbi-blast-2.2.30+
@@ -20,12 +21,13 @@ If you use this library, please cite:
 NCBI_BLAST_BIN = /path/to/ncbi-blast-2.2.30+/bin/
 BLAST_DATABASE = /path/tp/BLAST_DB/db_name
 ```
-2. You can test it by running an example:  
+### 3. Test
+You can test it by running an example:  
 ```Bash  
 python SOFM.py -i example/d119l__.fasta
 ```
 
-For more information
+## Usage
 ```Shell
 >python SOFM.py -h  
 -------------------

@@ -4,7 +4,7 @@ Protein remote homology detection and fold recognition are two critical tasks fo
 
 If you use this library, please cite the following papaers:  
 1. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. Protein remote homology detection and fold recognition based on Sequence-Order Frequency Matrix[J]. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 2017.   
-2. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. SOFM-Top: Protein Remote Homology Detection and Fold Recognition Based on Sequence-Order Frequency Matrix[C]//International Conference on Intelligent Computing. Springer, Cham, 2017: 469-480.
+2. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. SOFM-Top: Protein Remote Homology Detection and Fold Recognition Based on Sequence-Order Frequency Matrix[C]//*International Conference on Intelligent Computing*. Springer, Cham, 2017: 469-480.
 
 ## Install
 ### 1. Main dependence  

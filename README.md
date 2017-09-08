@@ -29,7 +29,7 @@ The command of PSIBLAST used in SOFM is
 ### 3. Test  
 You can test it by running an example:  
 ```Bash  
-python SOFM.py -i example/d119l__.fasta
+python SOFM.py -i example/d119l__.fasta -k 3
 ```
 
 ## Usage

@@ -37,16 +37,17 @@ python SOFM.py -i example/d119l__.fasta
 >python SOFM.py -h  
 
 -------------------
-usage: SOFM.py [-h] -i INPUT [-o OUTPUT] [-k KMER]  
+usage: SOFM.py [-h] -i INPUT [-o OUTPUT] [-k KMER] [--version]
 
 Sequence-Order Frequency Matrix (SOFM) is a novel protein profile, which can
 achieve more information content than traditional profiles.
 
-optional arguments:  
-  -h, --help                    show this help message and exit  
-  -i INPUT, --input INPUT       input a single protein sequence in FASTA format  
-  -o OUTPUT, --output OUTPUT    output SOFM file, default filename: {input}.sofm{k}  
-  -k KMER, --kmer KMER          length of substrings, default value: k=3  
+optional arguments:
+  -h, --help                    show this help message and exit
+  -i INPUT, --input INPUT       input a single protein sequence in FASTA format
+  -o OUTPUT, --output OUTPUT    output SOFM file, default filename: {input}.sofm{k}
+  -k KMER, --kmer KMER          length of substrings, default value: k=3
+  --version                     show program's version number and exit 
 ```  
    
 

@@ -22,7 +22,7 @@ NCBI_BLAST_BIN = /path/to/ncbi-blast-2.2.30+/bin/
 BLAST_DATABASE = /path/tp/BLAST_DB/db_name
 ```  
 The command of PSIBLAST used in SOFM is   
-```Bash  
+```  
 {NCBI_BLAST_BIN}/psiblast -query input -db {BLAST_DATABASE} -out xmlfile -outfmt 5 -num_iterations 3 -evalue 0.001 -num_threads 5
 ```  
 
@@ -34,7 +34,7 @@ python SOFM.py -i example/d119l__.fasta
 
 ## Usage
 ```
->python SOFM.py -h  
+python SOFM.py -h  
 
 -------------------
 usage: SOFM.py [-h] -i INPUT [-o OUTPUT] [-k KMER] [--version]

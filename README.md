@@ -12,8 +12,27 @@ If you use this library, please cite:
 * [BioPython>=1.69](http://biopython.org/)
 
 # Usage
+1. You should have to configure the PATH.conf. In default, the PSIBLAST is performed with 
+
+```Bash
+# ncbi blast verison ncbi-blast-2.2.30+
+[PSIBLAST]
+NCBI_BLAST_BIN = /path/to/ncbi-blast-2.2.30+/bin/
+BLAST_DATABASE = /path/tp/BLAST_DB/db_name
 ```
-usage: SOFM.py [-h] -i INPUT [-o OUTPUT] [-k KMER]
+2. You can test it by running an example:  
+```Bash  
+python SOFM.py -i example/d119l__.fasta
+```
+
+For more information
+```Shell
+>python SOFM.py -h  
+-------------------
+usage: SOFM.py [-h] -i INPUT [-o OUTPUT] [-k KMER]  
+
+Sequence-Order Frequency Matrix (SOFM) is a novel protein profile, which can
+achieve more information content than traditional profiles.
 
 optional arguments:  
   -h, --help                  show this help message and exit  
@@ -22,7 +41,4 @@ optional arguments:
   -k KMER, --kmer KMER        length of substrings, default k=3  
 ```  
    
-Example:  
-```Bash  
-python SOFM.py -i example/d119l__.fasta
-```
+

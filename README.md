@@ -33,7 +33,7 @@ python SOFM.py -i example/d119l__.fasta
 ```
 
 ## Usage
-```Shell
+```
 >python SOFM.py -h  
 
 -------------------

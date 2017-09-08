@@ -7,12 +7,12 @@ If you use this library, please cite:
 2. Junjie Chen, Mingyue Guo, Xiaolong Wang, BinLiu*. SOFM-Top: Protein Remote Homology Detection and Fold Recognition Based on Sequence-Order Frequency Matrix[C]//International Conference on Intelligent Computing. Springer, Cham, 2017: 469-480.
 
 ## Install
-### 1. Main dependence
+1. Main dependence  
 * [ncbi-blast >= 2.2.30+](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 * [Numpy>=1.3.1](http://www.numpy.org/)
 * [BioPython>=1.69](http://biopython.org/)
 
-### 2. Configure
+2. Configure  
 You should have to configure the PATH.conf. In default, the PSIBLAST is performed with 
 
 ```Bash
@@ -21,7 +21,7 @@ You should have to configure the PATH.conf. In default, the PSIBLAST is performe
 NCBI_BLAST_BIN = /path/to/ncbi-blast-2.2.30+/bin/
 BLAST_DATABASE = /path/tp/BLAST_DB/db_name
 ```
-### 3. Test
+3. Test  
 You can test it by running an example:  
 ```Bash  
 python SOFM.py -i example/d119l__.fasta
@@ -37,10 +37,10 @@ Sequence-Order Frequency Matrix (SOFM) is a novel protein profile, which can
 achieve more information content than traditional profiles.
 
 optional arguments:  
-  -h, --help                  show this help message and exit  
-  -i INPUT, --input INPUT     input a single protein sequence in FASTA format  
-  -o OUTPUT, --output OUTPUT  output SOFM file, default: {input}.sofm{k}  
-  -k KMER, --kmer KMER        length of substrings, default k=3  
+  -h, --help                    show this help message and exit  
+  -i INPUT, --input INPUT       input a single protein sequence in FASTA format  
+  -o OUTPUT, --output OUTPUT    output SOFM file, default: {input}.sofm{k}  
+  -k KMER, --kmer KMER          length of substrings, default k=3  
 ```  
    
 

@@ -8,9 +8,10 @@ If you use this library, please cite the following papaers:
 
 ## Install
 ### 1. Main dependence  
+* python2 >= 2.7
 * [ncbi-blast >= 2.2.30+](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
-* [Numpy>=1.3.1](http://www.numpy.org/)
-* [BioPython>=1.69](http://biopython.org/)
+* [Numpy >= 1.3.1](http://www.numpy.org/)
+* [BioPython >= 1.69](http://biopython.org/)
 
 ### 2. Configure  
 You have to configure the paths of ncbi-blast and blast database in the PATH.conf
